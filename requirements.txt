@@ -1,0 +1,9 @@
+cdsapi>=0.7.7
+python-dotenv
+xarray
+netcdf4
+pandas
+pyarrow
+matplotlib
+jupyter
+ipykernel

@@ -1,0 +1,31 @@
+# Data and credentials
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+.env
+.ecmwfapirc
+.cdsapirc
+*.grib
+*.grib2
+*.idx
+*.nc
+*.nc4
+*.zip
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

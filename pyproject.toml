@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecmwf-ml"
+version = "0.1.0"
+description = "Retrieve ERA5-Land at a single point from Copernicus CDS for ML datasets"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "cdsapi>=0.7.7",
+  "python-dotenv",
+  "xarray",
+  "netcdf4",
+  "pandas",
+  "pyarrow",
+  "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
